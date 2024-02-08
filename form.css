@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(219, 219, 219);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family:'Varela Round',sans-serif;
+}
+@font-face {
+    font-family: kufi;
+    src: url('DTHULUTH-II-1.ttf');
+    
+}
+.header{
+    width: 90%;
+    height: 200px;
+    background-image: url('362284938.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgb(82, 82, 82);
+}
+.title img{
+    text-align: center;
+    width: 150px;
+}
+.title{
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 20px;
+    background: white;
+    width: 75%;
+    padding: 20px;
+}
+.title .txt{
+    text-align: center;
+    width: 300px;
+    margin: 10px 0;
+}
+.form{
+    background: white;
+}
+.description{
+    
+    padding: 20px;
+    /* border-radius: 15px; */
+    
+}
+.description h1{
+    text-align: center;
+    padding:0 80px ;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.description p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.description .note{
+    color: red;
+    /* border-top: 1px solid black; */
+    padding-top:10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.form2{
+    /* border-radius: 15px; */
+    padding: 20px;
+    background: white;
+}
+.form2 .form-control,.form2 .form-select{
+    background: rgb(235, 232, 232);
+}
+.form .form-check{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.form .form2 div input:focus, .form .form2 div select:focus,.form textarea:focus{
+    box-shadow: 0 0 15px rgb(82, 82, 82);
+    border: none;
+}
+.form .form2 div label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-right: 10px;
+}
+.form button{
+    width: 40%;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+@media (max-width: 400px) {
+    .title .txt{
+        text-align: center;
+        width: 200px;
+        margin: 10px 0;
+    }
+    .description h1{
+        text-align: center;
+        padding:0 10px ;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .form button{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .radios{
+        margin-right: 20px;
+    }
+}
