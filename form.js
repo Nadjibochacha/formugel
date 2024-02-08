@@ -92,7 +92,7 @@
                 Host: "smtp.elasticemail.com",
                 Username: "nadjib.chacha@univ-constantine2.dz",
                 Password: "392B2556AE5AF06D4847EADD0794219F30B3",
-                To: "ndjbchch@gmail.com",
+                To: "ugelconstantine25@gmail.com",
                 From: "nadjib.chacha@univ-constantine2.dz",
                 Subject: "إستمارة تسجيل الشكاوي، الاتحاد العام الطلابي الحر فرع قسنطينة 2",
                 Body:body 
